@@ -24,7 +24,7 @@
  * @package MvcTemplateTiein
  * @subpackage Tests
  */
-require_once 'MvcTemplateTiein/tests/testfiles/testclasses.php';
+require_once __DIR__ . '/../testfiles/testclasses.php';
 
 /**
  * Test the handler classes.
