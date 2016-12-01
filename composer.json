@@ -30,8 +30,8 @@
     "name": "zetacomponents/mvc-template-tiein",
     "type": "library",
     "require": {
-        "zetacomponents/mvc-tools": "~1.1",
-        "zetacomponents/template": "~1.4"
+        "zetacomponents/mvc-tools": "~1.2",
+        "zetacomponents/template": "~1.5"
     },
     "require-dev": {
         "zetacomponents/unit-test": "*"
