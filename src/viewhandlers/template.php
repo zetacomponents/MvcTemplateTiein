@@ -55,6 +55,16 @@ class ezcMvcTemplateViewHandler implements ezcMvcViewHandler
     protected $variables = array();
 
     /**
+     * @var string
+     */
+    protected $templateLocation;
+
+    /**
+     * @var ezcTemplate
+     */
+    protected $template;
+
+    /**
      * Creates a new view handler, where $zoneName is the name of the block and
      * $templateLocation the location of a view template.
      *
