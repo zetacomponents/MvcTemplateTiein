@@ -34,6 +34,7 @@
         "zetacomponents/template": "~1.4"
     },
     "require-dev": {
-        "zetacomponents/unit-test": "*"
+        "zetacomponents/unit-test": "*",
+        "phpunit/phpunit": "^9.0"
     }
 }
