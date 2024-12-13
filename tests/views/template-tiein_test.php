@@ -8,9 +8,9 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing,
  * software distributed under the License is distributed on an
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -24,7 +24,7 @@
  * @package MvcTemplateTiein
  * @subpackage Tests
  */
-require_once 'MvcTemplateTiein/tests/testfiles/testclasses.php';
+require_once __DIR__ . '/../testfiles/testclasses.php';
 
 /**
  * Test the handler classes.
@@ -34,7 +34,7 @@ require_once 'MvcTemplateTiein/tests/testfiles/testclasses.php';
  */
 class ezcMvcTemplateViewTest extends ezcTestCase
 {
-    function setUp()
+    function setUp() : void
     {
         $this->baseDir = dirname( __FILE__ ) . '/../testfiles/views/template/';
     }
@@ -106,7 +106,7 @@ class ezcMvcTemplateViewTest extends ezcTestCase
 
     public static function suite()
     {
-         return new PHPUnit_Framework_TestSuite( "ezcMvcTemplateViewTest" );
+         return new PHPUnit\Framework\TestSuite( "ezcMvcTemplateViewTest" );
     }
 }
 ?>
