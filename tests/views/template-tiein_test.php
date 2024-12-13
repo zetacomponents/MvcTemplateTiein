@@ -34,6 +34,11 @@ require_once __DIR__ . '/../testfiles/testclasses.php';
  */
 class ezcMvcTemplateViewTest extends ezcTestCase
 {
+    /**
+     * @var string
+     */
+    private $baseDir;
+
     function setUp() : void
     {
         $this->baseDir = dirname( __FILE__ ) . '/../testfiles/views/template/';
